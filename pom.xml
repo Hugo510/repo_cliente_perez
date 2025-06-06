@@ -21,7 +21,7 @@
             <configuration>
                 <packageName></packageName>
                 <wsdlUrls>
-                    <wsdlUrl>http://localhost:8080/parcial_1_perez_4a/parcial_1_perez_web_operaciones_9?wsdl</wsdlUrl>
+                    <wsdlUrl>http://localhost:8080/recuu_perez_9a/recu_perez_web_operaciones_9?wsdl</wsdlUrl>
                 </wsdlUrls>
                 <sourceDestDir>${project.build.sourceDirectory}</sourceDestDir>
                 <extension>true</extension>
@@ -33,7 +33,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>3.1.0</version>
             <configuration>
-                <mainClass>com.mycompany.parcial_1_perez_cliente.Parcial_1_perez_cliente</mainClass>
+                <mainClass>com.mycompany.recu_perez_cliente.Recu_perez_cliente</mainClass>
             </configuration>
         </plugin>
     </plugins>
@@ -54,6 +54,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
-        <exec.mainClass>com.mycompany.parcial_1_perez_cliente.Parcial_1_perez_cliente</exec.mainClass>
+        <exec.mainClass>com.mycompany.recu_perez_cliente.Recu_perez_cliente</exec.mainClass>
     </properties>
 </project>
